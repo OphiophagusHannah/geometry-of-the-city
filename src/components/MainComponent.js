@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import About from '../pages/About';
 import Home from '../pages/Home';
+import Prototype from '../pages/Prototype';
 
 class Main extends Component {
     render() {
@@ -9,7 +10,8 @@ class Main extends Component {
             <div className="site-wrapper">
                 <Routes>
                     <Route path="/"  element={<Home />}/>
-                    <Route path="/about" element={<About />} />
+                    <Route path="/visual" element={<About />} />
+                    <Route path="/proto" element={<Prototype />} />
                 </Routes>
             </div>
 

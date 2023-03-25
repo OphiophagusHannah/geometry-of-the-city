@@ -41,7 +41,7 @@ h3,
 h4,
 h5 {
   font-family: "Montserrat", sans-serif;
-  color: #8f00ff;
+  // color: #8f00ff;
 }
 
 .mono {
@@ -53,9 +53,9 @@ h5 {
 
 .site {
   // background: #8f00ff;
-  background: linear-gradient(340deg, #ff4500 0%, #dd0088 47%, #aa00ff 100%);
-  font-family: "Montserrat", sans-serif;
-  transition: 1s linear;
+  // background: linear-gradient(340deg, #ff4500 0%, #dd0088 47%, #aa00ff 100%);
+  // font-family: "Montserrat", sans-serif;
+  // transition: 1s linear;
 
   a:hover {
   }
@@ -73,30 +73,30 @@ h5 {
 
 .gradient-text {
   // background-color: #dd0088;
-  background-image: linear-gradient(340deg, #ff4500 10%, #aa00ff 67%, #dd0088 100%);
-  background-size: 100% 100%;
-  background-repeat: repeat;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  transition: 1s linear;
+  // background-image: linear-gradient(340deg, #ff4500 10%, #aa00ff 67%, #dd0088 100%);
+  // background-size: 100% 100%;
+  // background-repeat: repeat;
+  // background-clip: text;
+  // text-fill-color: transparent;
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  // -moz-background-clip: text;
+  // -moz-text-fill-color: transparent;
+  // transition: 1s linear;
 }
 
-.gradient-text .progress div {
-  background: linear-gradient(340deg, #ff4500 0%, #dd0088 47%, #aa00ff 100%) !important;
-}
+// .gradient-text .progress div {
+//   background: linear-gradient(340deg, #ff4500 0%, #dd0088 47%, #aa00ff 100%) !important;
+// }
 
-footer {
-  background: #8f00ff;
-  background-image: linear-gradient(340deg, #ff4500 0%, #dd0088 100%);
-  transition: 1.5s linear;
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  height: 5rem;
-}
+// footer {
+//   background: #8f00ff;
+//   background-image: linear-gradient(340deg, #ff4500 0%, #dd0088 100%);
+//   transition: 1.5s linear;
+//   font-family: "Montserrat", sans-serif;
+//   color: white;
+//   height: 5rem;
+// }
 
 footer p,
 footer h1,
@@ -107,13 +107,13 @@ footer h5,
 footer a,
 footer li {
   font-family: "Montserrat", sans-serif;
-  color: white;
-  transition: 1.5s linear;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: white;
-  -moz-background-clip: text;
-  -moz-text-fill-color: white;
-  transition: 1.5s linear;
+  // color: white;
+  // transition: 1.5s linear;
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: white;
+  // -moz-background-clip: text;
+  // -moz-text-fill-color: white;
+  // transition: 1.5s linear;
 }
 
 .site {
@@ -126,7 +126,7 @@ footer li {
   a,
   li {
     font-family: "Montserrat", sans-serif;
-    color: white;
+    // color: white;
   }
 }
 
@@ -188,27 +188,27 @@ nav .nav-link-preend li {
   font-size: 18px;
 
   &:after {
-    content: "";
-    display: block;
-    height: 1px;
-    background: $line-color;
-    position: relative;
-    top: 0.2rem;
-    left: -2%;
-    width: 104%;
-    transition: 0.2s linear;
+    // content: "";
+    // display: block;
+    // height: 1px;
+    // background: $line-color;
+    // position: relative;
+    // top: 0.2rem;
+    // left: -2%;
+    // width: 104%;
+    // transition: 0.2s linear;
   }
 
   &:hover {
     &:after {
-      content: "";
-      display: block;
-      height: 2px;
-      background: linear-gradient(340deg, #ff4500 0%, #dd0088 47%, #aa00ff 100%);
-      width: 104%;
-      position: relative;
-      top: -0.5rem;
-      transition: 0.2s linear;
+      // content: "";
+      // display: block;
+      // height: 2px;
+      // background: linear-gradient(340deg, #ff4500 0%, #dd0088 47%, #aa00ff 100%);
+      // width: 104%;
+      // position: relative;
+      // top: -0.5rem;
+      // transition: 0.2s linear;
     }
   }
 }
@@ -249,12 +249,12 @@ nav ul {
   display: flex;
   justify-content: flex-start;
   padding-left: 0;
-  width: 100%;
+  // width: 100%;
 }
 
-h1 {
-  visibility: hidden;
-}
+// h1 {
+//   visibility: hidden;
+// }
 
 .intro {
   display: block;
